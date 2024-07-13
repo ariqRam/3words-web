@@ -10,7 +10,7 @@ const Navbar = () => {
 				<Image alt="3 words logo" src="/logo.svg" width={100} height={100}></Image>
 			</Link>
 			<a href="mailto:ariq.ramdhany@.ittend.com" className=' inline-block'>
-				<div className=' bg-lightGreen px-4 py-2 border border-none rounded-full'>
+				<div className=' bg-lightGreen px-4 py-2 text-xl border border-none hover:bg-primary hover:text-white rounded-full'>
 					Contact us
 				</div>
 			</a>

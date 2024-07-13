@@ -12,7 +12,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="p-10">
-				<Image alt="iphone mockup" src="/ip-mock.png" width={232} height={959}></Image>
+				<Image alt="iphone mockup" src="/ip-mock.png" width={270} height={959}></Image>
 			</div>
 		</main>
 	);
