@@ -9,7 +9,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Roboto Condensed', 'Arial', 'sans-serif'],
+				sans: ['Rubik', 'Roboto Condensed', 'Arial', 'sans-serif'],
 			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -17,6 +17,7 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 			colors: {
+				primary: "#F44369",
 				lightGreen: "#E8FF8E",
 			}
 		},
