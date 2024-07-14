@@ -11,7 +11,14 @@ export const metadata = {
 		creator: '@ariq_ram',
 		title: '3words | Learn 3 words a day',
 		description: 'Learn 3 words a day. Casually.',
-		image: 'https://www.get3words.com/x-card.png',
+		images: [
+			{
+				url: "https://www.get3words.com/images/x-card.png",
+				width: 1200,
+				height: 630,
+				alt: "3 words Twitter card",
+			},
+		],
 	}
 }
 
