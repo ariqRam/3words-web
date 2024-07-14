@@ -6,6 +6,13 @@ import Head from 'next/head';
 export const metadata = {
 	title: '3words | Learn 3 words a day',
 	description: 'Learn 3 words a day',
+	twitter: {
+		card: 'summary',
+		creator: '@ariq_ram',
+		title: '3words | Learn 3 words a day',
+		description: 'Learn 3 words a day. Casually.',
+		image: 'https://www.get3words.com/x-card.png',
+	}
 }
 
 export default function RootLayout({
