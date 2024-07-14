@@ -11,8 +11,8 @@ export default function Home() {
 					<h1 className="pb-0 md:pb-20">a day</h1>
 				</div>
 			</div>
-			<div className="self-center w-[80px] md:w-[270px] pb-5 md:p-10">
-				<Image alt="iphone mockup" src="/ip-mock.png" width={270} height={959}></Image>
+			<div className="self-center pb-5 md:p-10">
+				<Image alt="iphone mockup" src="/ip-mock.png" width={270} height={959} className="w-[80px] md:w-[270px]"></Image>
 			</div>
 		</div>
 	);
