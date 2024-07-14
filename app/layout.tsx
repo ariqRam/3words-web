@@ -1,9 +1,10 @@
 import '@/app/globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export const metadata = {
-	title: 'Three Words',
+	title: '3words | Learn 3 words a day',
 	description: 'Learn 3 words a day',
 }
 
@@ -14,9 +15,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<head>
+			<Head>
 				<link rel="icon" href="/favicon.ico" />
-			</head>
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:site" content="@ariq_ram" />
+				<meta name="twitter:title" content="3words" />
+				<meta name="twitter:description" content="Learn 3 words a day. Casually." />
+				<meta name="twitter:image" content="https://www.get3words.com/x-card.png" />
+			</Head>
 			<body>
 				<Navbar></Navbar>
 				{children}
