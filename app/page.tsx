@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="m-2 bg-primary border-none rounded-[30px] flex flex-col md:flex-row place-content-between">
+		<div className="m-2 md:m-5 bg-primary border-none rounded-[30px] flex flex-col md:flex-row place-content-between">
 			<div className="w-[300px] md:w-[580px] leading-[40px] md:leading-[80px] text-[40px] md:text-[86px] text-white p-4 md:p-7">
 				<div className="inline-block">
 					<h1 >you can get <span className="text-lightGreen">very far</span> with just
