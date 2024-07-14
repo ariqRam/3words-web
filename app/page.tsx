@@ -1,5 +1,24 @@
 import Image from "next/image";
 
+export const metadata = {
+	title: '3words | Learn 3 words a day',
+	description: 'Learn 3 words a day',
+	twitter: {
+		card: 'summary_large_image',
+		creator: '@ariq_ram',
+		title: '3words | Learn 3 words a day',
+		description: 'Learn 3 words a day. Casually.',
+		images: [
+			{
+				url: "https://www.get3words.com/images/x-card.png",
+				width: 1200,
+				height: 630,
+				alt: "3 words Twitter card",
+			},
+		],
+	}
+}
+
 export default function Home() {
 	return (
 		<main className="m-2 bg-primary border-none rounded-[30px] flex place-content-between">
