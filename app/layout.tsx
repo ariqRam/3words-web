@@ -3,12 +3,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-	title: '3words | Learn 3 words a day',
+	title: '3words',
 	description: 'Learn 3 words a day',
 	twitter: {
 		card: 'summary_large_image',
 		creator: '@ariq_ram',
-		title: '3words | Learn 3 words a day',
+		title: '3words',
 		description: 'Learn 3 words a day. Casually.',
 		images: [
 			{
