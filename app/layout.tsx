@@ -1,7 +1,6 @@
 import '@/app/globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Head from 'next/head';
 
 export const metadata = {
 	title: '3words | Learn 3 words a day',
@@ -29,9 +28,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<Head>
+			<head>
 				<link rel="icon" href="/favicon.ico" />
-			</Head>
+			</head>
 			<body>
 				<Navbar></Navbar>
 				{children}
